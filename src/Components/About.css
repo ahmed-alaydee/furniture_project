@@ -1,0 +1,12 @@
+.img_card img{
+    width: 80%;
+    height: 60vh;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.img_card img:hover{
+    cursor: pointer;
+    width: 83%;
+    height: 64vh;
+
+}

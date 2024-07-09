@@ -1,0 +1,30 @@
+.contanier{
+    margin: auto;
+    width: 99%;
+    overflow: hidden;
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.Footer_section{
+    margin-top: 4%;
+    text-align: center;
+    color: #fff;
+}
+
+.icon_icon a{
+    color: #fff;
+    margin: 1%;
+}
+
+
+.icon_icon a i{
+    font-size: 20px;
+    transition: 0.4s;
+}
+.icon_icon a i:hoveR{
+    transform: translatey(-10px);
+    color: #008cff;
+    font-size: 24px;
+}

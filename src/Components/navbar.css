@@ -1,0 +1,667 @@
+.contanier_nav-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.container_nav-icon {
+    padding: 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .icon_social a {
+    margin-right: 10px;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .icon_shop i {
+    margin-left: 10px;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .text_head h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+  }
+  
+
+.contanier_nav-icon .icon_social {
+    margin-left: 2%;
+}
+
+.contanier_nav-icon .icon_social a{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.contanier_nav-icon .icon_social a i{
+    color: #000;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.contanier_nav-icon .icon_social a i:hover{
+    color: rgb(0, 60, 255);
+    font-size: 22px;
+}
+
+.contanier_nav-icon   .text_head{
+    margin-right: 0%;
+    transition: 0.4s;
+}
+
+.contanier_nav-icon   .text_head:hover{
+    color: #eece94;
+    cursor: pointer;
+}
+.contanier_nav-icon  .icon_shop {
+    margin-right: 7%;
+    color: #000;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.contanier_nav-icon  .icon_shop  i{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 4px;
+    transition: 0.5s;
+    font-size: 18px;
+}
+.contanier_nav-icon  .icon_shop  i:hover{
+    color: #eece94;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.contanier_nav-icon  .icon_shop   .heart_icon:hover{
+    background-color: red;
+    color: #fff;
+}
+
+
+@media (max-width:375px){
+    .contanier_nav-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .contanier_nav-icon .icon_social {
+        display: flex;
+        float: left;
+    }
+    
+    .contanier_nav-icon .icon_social a{
+        padding: 7px;
+        border: 1px solid #000;
+        border-radius: 50%;
+      
+       margin: 1px;
+    }
+    
+    .contanier_nav-icon .icon_social a i{
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+
+
+    .contanier_nav-icon   .text_head{
+        margin-right: 0%;
+        transition: 0.4s;
+        margin-bottom: 50px;
+    }
+    .contanier_nav-icon   .text_head h1{
+        font-size: 30px;
+    }
+    
+   
+
+
+    .contanier_nav-icon  .icon_shop {
+        margin-right: 1%;
+        color: #000;
+        font-size: 17px;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon  .icon_shop  i{
+        padding: 7px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 4px;
+        transition: 0.5s;
+        font-size: 16px;
+    }
+    .contanier_nav-icon  .icon_shop  i:hover{
+        color: #eece94;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media (max-width:414px){
+    .contanier_nav-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .contanier_nav-icon .icon_social {
+        display: flex;
+        float: left;
+    }
+    
+    .contanier_nav-icon .icon_social a{
+        padding: 9px;
+        border: 1px solid #000;
+        border-radius: 50%;
+       margin: 2px;
+    }
+    
+    .contanier_nav-icon .icon_social a i{
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+
+
+    .contanier_nav-icon   .text_head{
+        margin-right: 0%;
+        transition: 0.4s;
+        margin-bottom: 50px;
+    }
+    .contanier_nav-icon   .text_head h1{
+        font-size: 33px;
+    }
+    
+   
+
+
+    .contanier_nav-icon  .icon_shop {
+        display: flex;
+   
+        color: #000;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon  .icon_shop  i{
+        padding: 8px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 4px;
+        transition: 0.5s;
+        font-size: 17px;
+    }
+    .contanier_nav-icon  .icon_shop  i:hover{
+        color: #eece94;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+@media (max-width:430px){
+    .contanier_nav-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .contanier_nav-icon .icon_social {
+        display: flex;
+        float: left;
+        margin-top: 10px;
+    }
+    
+    .contanier_nav-icon .icon_social a{
+        padding: 9px;
+        border: 1px solid #000;
+        border-radius: 50%;
+       margin: 2px;
+    }
+    
+    .contanier_nav-icon .icon_social a i{
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+
+
+    .contanier_nav-icon   .text_head{
+        margin-right: 0%;
+        transition: 0.4s;
+        margin-bottom: 50px;
+    }
+    .contanier_nav-icon   .text_head h1{
+        font-size: 33px;
+    }
+    
+   
+
+
+    .contanier_nav-icon  .icon_shop {
+        display: flex;
+   margin-top: 10px;
+        color: #000;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon  .icon_shop  i{
+        padding: 8px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 4px;
+        transition: 0.5s;
+        font-size: 17px;
+    }
+    .contanier_nav-icon  .icon_shop  i:hover{
+        color: #eece94;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+@media (max-width:820px){
+   
+    .contanier_nav-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    
+    .contanier_nav-icon .icon_social {
+        margin-left: 3%;
+    }
+    
+    .contanier_nav-icon .icon_social a{
+     
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 5px;
+        padding: 14px;
+    }
+    
+    .contanier_nav-icon .icon_social a i{
+        color: #000;
+      
+     line-height: 15px;
+        font-size: 25px;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon .icon_social a i:hover{
+        color: rgb(0, 60, 255);
+        font-size: 22px;
+    }
+    
+    .contanier_nav-icon   .text_head{
+        margin-right: 0%;
+        transition: 0.4s;
+    }
+    .contanier_nav-icon   .text_head h1{
+        margin-right: 0%;
+        transition: 0.4s;
+        font-size: 45px;
+    }
+    
+    
+    .contanier_nav-icon   .text_head:hover{
+        color: #eece94;
+        cursor: pointer;
+    }
+    .contanier_nav-icon  .icon_shop {
+        margin-right: 7%;
+        color: #000;
+        font-size: 17px;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon  .icon_shop  i{
+        padding: 14px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 4px;
+        transition: 0.5s;
+        font-size: 20px;
+    }
+    .contanier_nav-icon  .icon_shop  i:hover{
+        color: #eece94;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    
+    .contanier_nav-icon  .icon_shop   .heart_icon:hover{
+        background-color: red;
+        color: #fff;
+    }
+    
+
+}
+
+
+@media (max-width:1024px){
+   
+    .contanier_nav-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    
+    .contanier_nav-icon .icon_social {
+        margin-left: 3%;
+    }
+    
+    .contanier_nav-icon .icon_social a{
+     
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 5px;
+        padding: 16px;
+    }
+    
+    .contanier_nav-icon .icon_social a i{
+        color: #000;
+     line-height: 15px;
+        font-size: 25px;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon .icon_social a i:hover{
+        color: rgb(0, 60, 255);
+        font-size: 22px;
+    }
+    
+    .contanier_nav-icon   .text_head{
+        margin-right: 0%;
+        transition: 0.4s;
+    }
+    .contanier_nav-icon   .text_head h1{
+        margin-right: 0%;
+        transition: 0.4s;
+        font-size: 47px;
+    }
+    
+    
+    .contanier_nav-icon   .text_head:hover{
+        color: #eece94;
+        cursor: pointer;
+    }
+    .contanier_nav-icon  .icon_shop {
+        margin-right: 7%;
+        color: #000;
+        font-size: 17px;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon  .icon_shop  i{
+        padding: 16px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 4px;
+        transition: 0.5s;
+        font-size: 24px;
+    }
+    .contanier_nav-icon  .icon_shop  i:hover{
+        color: #eece94;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    
+    .contanier_nav-icon  .icon_shop   .heart_icon:hover{
+        background-color: red;
+        color: #fff;
+    }
+    
+
+}
+
+
+@media (max-width:540px){
+   
+    .contanier_nav-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .contanier_nav-icon .icon_social {
+        display: flex;
+        float: left;
+    }
+    
+    .contanier_nav-icon .icon_social a{
+        padding: 9px;
+        border: 1px solid #000;
+        border-radius: 50%;
+       margin: 2px;
+    }
+    
+    .contanier_nav-icon .icon_social a i{
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+
+
+    .contanier_nav-icon   .text_head{
+        margin-right: 0%;
+        transition: 0.4s;
+        margin-bottom: 50px;
+    }
+    .contanier_nav-icon   .text_head h1{
+        font-size: 33px;
+    }
+    
+   
+
+
+    .contanier_nav-icon  .icon_shop {
+        display: flex;
+        color: #000;
+        font-weight: 600;
+        transition: 0.5s;
+      
+    }
+    .contanier_nav-icon  .icon_shop  i{
+        padding: 8px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        transition: 0.5s;
+        font-size: 17px;
+    }
+    .contanier_nav-icon  .icon_shop  i:hover{
+        color: #eece94;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media (max-width:675px){
+   
+    .contanier_nav-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    
+    .contanier_nav-icon .icon_social {
+        margin-left: 3%;
+    }
+    
+    .contanier_nav-icon .icon_social a{
+     
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 5px;
+        padding: 14px;
+    }
+    
+    .contanier_nav-icon .icon_social a i{
+        color: #000;
+      
+     line-height: 15px;
+        font-size: 25px;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon .icon_social a i:hover{
+        color: rgb(0, 60, 255);
+        font-size: 22px;
+    }
+    
+    .contanier_nav-icon   .text_head{
+        margin-right: 0%;
+        transition: 0.4s;
+    }
+    .contanier_nav-icon   .text_head h1{
+        margin-right: 0%;
+        transition: 0.4s;
+        font-size: 45px;
+    }
+    
+    
+    .contanier_nav-icon   .text_head:hover{
+        color: #eece94;
+        cursor: pointer;
+    }
+    .contanier_nav-icon  .icon_shop {
+        margin-right: 7%;
+        color: #000;
+        font-size: 17px;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon  .icon_shop  i{
+        padding: 14px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 4px;
+        transition: 0.5s;
+        font-size: 20px;
+    }
+    .contanier_nav-icon  .icon_shop  i:hover{
+        color: #eece94;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    
+    .contanier_nav-icon  .icon_shop   .heart_icon:hover{
+        background-color: red;
+        color: #fff;
+    }
+    
+
+}
+
+
+
+@media (max-width:625px){
+   
+    .contanier_nav-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    
+    .contanier_nav-icon .icon_social {
+        margin-left: 3%;
+    }
+    
+    .contanier_nav-icon .icon_social a{
+     
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 5px;
+        padding: 14px;
+    }
+    
+    .contanier_nav-icon .icon_social a i{
+        color: #000;
+      
+     line-height: 15px;
+        font-size: 25px;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon .icon_social a i:hover{
+        color: rgb(0, 60, 255);
+        font-size: 22px;
+    }
+    
+    .contanier_nav-icon   .text_head{
+        margin-right: 0%;
+        transition: 0.4s;
+    }
+    .contanier_nav-icon   .text_head h1{
+        margin-right: 0%;
+        transition: 0.4s;
+        font-size: 45px;
+    }
+    
+    
+    .contanier_nav-icon   .text_head:hover{
+        color: #eece94;
+        cursor: pointer;
+    }
+    .contanier_nav-icon  .icon_shop {
+        margin-right: 7%;
+        color: #000;
+        font-size: 17px;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+    .contanier_nav-icon  .icon_shop  i{
+        padding: 14px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 4px;
+        transition: 0.5s;
+        font-size: 20px;
+    }
+    .contanier_nav-icon  .icon_shop  i:hover{
+        color: #eece94;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    
+    .contanier_nav-icon  .icon_shop   .heart_icon:hover{
+        background-color: red;
+        color: #fff;
+    }
+    
+
+}
